@@ -41,7 +41,8 @@ export default function NewOrder(){
       navigate("/order")
     }
     const handleSubmit=()=>{
-      formSubmit()
+      formSubmit();
+      navigate("/order")
     }
     const formSubmit=async()=>{
       try{
